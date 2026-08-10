@@ -1,0 +1,42 @@
+[project]
+name = "transition-intelligence-demo"
+version = "0.1.0"
+description = "Polyethylene grade-transition intelligence sales demo"
+requires-python = ">=3.13,<3.14"
+dependencies = [
+    "astropy>=7.0",
+    "kaleido>=1.0",
+    "matplotlib>=3.10",
+    "numpy>=2.2",
+    "openai>=2.0",
+    "openai-agents>=0.19.4",
+    "pandas>=2.2",
+    "plotly>=6.1.1",
+    "python-dotenv>=1.1",
+    "pydantic>=2.10",
+    "scipy>=1.15",
+    "streamlit>=1.45",
+    "tqdm>=4.67",
+]
+
+[dependency-groups]
+dev = [
+    "playwright>=1.54",
+    "pytest>=8.3",
+    "ruff>=0.11",
+]
+
+[tool.uv]
+package = false
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py313"
+
+[tool.ruff.format]
+quote-style = "double"
+indent-style = "space"

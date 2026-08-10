@@ -1,0 +1,145 @@
+{
+  "transitions": [
+    {
+      "transition_id": "TR-01",
+      "start_hour": 0.0,
+      "end_hour": 5.4,
+      "on_spec_entry_hour": 5.4,
+      "high_pressure_intervals": [],
+      "low_pressure_intervals": [],
+      "sustained_saturation_intervals": [
+        {
+          "start_hour": 0.033,
+          "end_hour": 2.367
+        }
+      ],
+      "venting_intervals": []
+    },
+    {
+      "transition_id": "TR-02",
+      "start_hour": 0.0,
+      "end_hour": 9.033,
+      "on_spec_entry_hour": 9.033,
+      "high_pressure_intervals": [],
+      "low_pressure_intervals": [
+        {
+          "start_hour": 0.8,
+          "end_hour": 11.033
+        }
+      ],
+      "sustained_saturation_intervals": [],
+      "venting_intervals": [
+        {
+          "start_hour": 0.033,
+          "end_hour": 0.2
+        }
+      ]
+    },
+    {
+      "transition_id": "TR-03",
+      "start_hour": 0.0,
+      "end_hour": 5.5,
+      "on_spec_entry_hour": 5.5,
+      "high_pressure_intervals": [],
+      "low_pressure_intervals": [],
+      "sustained_saturation_intervals": [
+        {
+          "start_hour": 0.033,
+          "end_hour": 2.467
+        }
+      ],
+      "venting_intervals": []
+    },
+    {
+      "transition_id": "TR-04",
+      "start_hour": 0.0,
+      "end_hour": 8.2,
+      "on_spec_entry_hour": 8.2,
+      "high_pressure_intervals": [],
+      "low_pressure_intervals": [],
+      "sustained_saturation_intervals": [],
+      "venting_intervals": [
+        {
+          "start_hour": 0.033,
+          "end_hour": 1.0
+        },
+        {
+          "start_hour": 2.233,
+          "end_hour": 2.333
+        }
+      ]
+    },
+    {
+      "transition_id": "TR-05",
+      "start_hour": 0.0,
+      "end_hour": 5.567,
+      "on_spec_entry_hour": 5.567,
+      "high_pressure_intervals": [
+        {
+          "start_hour": 0.533,
+          "end_hour": 0.533
+        },
+        {
+          "start_hour": 0.6,
+          "end_hour": 0.633
+        },
+        {
+          "start_hour": 0.7,
+          "end_hour": 0.733
+        },
+        {
+          "start_hour": 0.8,
+          "end_hour": 1.0
+        },
+        {
+          "start_hour": 1.067,
+          "end_hour": 1.133
+        },
+        {
+          "start_hour": 2.8,
+          "end_hour": 2.8
+        }
+      ],
+      "low_pressure_intervals": [],
+      "sustained_saturation_intervals": [
+        {
+          "start_hour": 0.067,
+          "end_hour": 2.633
+        }
+      ],
+      "venting_intervals": [
+        {
+          "start_hour": 0.5,
+          "end_hour": 1.367
+        },
+        {
+          "start_hour": 1.533,
+          "end_hour": 1.633
+        },
+        {
+          "start_hour": 2.033,
+          "end_hour": 2.1
+        },
+        {
+          "start_hour": 2.833,
+          "end_hour": 2.867
+        }
+      ]
+    },
+    {
+      "transition_id": "TR-06",
+      "start_hour": 0.0,
+      "end_hour": 9.133,
+      "on_spec_entry_hour": 9.133,
+      "high_pressure_intervals": [],
+      "low_pressure_intervals": [
+        {
+          "start_hour": 0.567,
+          "end_hour": 11.133
+        }
+      ],
+      "sustained_saturation_intervals": [],
+      "venting_intervals": []
+    }
+  ]
+}

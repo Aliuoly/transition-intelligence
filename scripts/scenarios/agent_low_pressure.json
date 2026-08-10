@@ -1,0 +1,13 @@
+{
+  "scenario_name": "agent-low-pressure-two-stage-supervisory-trajectory",
+  "pressure_precondition_targets_kpa": [
+    2130.5,
+    2250.0,
+    2160.5,
+    2250.0,
+    2270.0,
+    2250.0
+  ],
+  "low_pressure_density_ramp_hours": 1.0,
+  "low_pressure_mfr_ramp_hours": 1.0
+}

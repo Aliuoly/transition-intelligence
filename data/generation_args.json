@@ -1,0 +1,98 @@
+{
+  "catalyst_site1_fraction_range": [
+    0.45,
+    0.55
+  ],
+  "catalyst_site1_fractions": [
+    0.451,
+    0.4778,
+    0.4945,
+    0.514,
+    0.477,
+    0.4543
+  ],
+  "comonomer_flow_max_kg_h": 7000.0,
+  "grade_2210_stabilization_hours": 30.0,
+  "hydrogen_flow_max_kg_h": 20.0,
+  "lab_density_error_std_kg_m3": 0.3,
+  "lab_mfr_relative_error_std": 0.04,
+  "lab_sample_interval_hours": 2.0,
+  "nitrogen_flow_max_kg_h": 200.0,
+  "nitrogen_flow_min_kg_h": 50.0,
+  "nitrogen_precondition_auto_settle_hours": 2.25,
+  "nitrogen_precondition_gain_kg_h_per_kpa": 50.0,
+  "nitrogen_precondition_hours": 10.0,
+  "nitrogen_precondition_max_kg_h": 3000.0,
+  "nitrogen_precondition_min_kg_h": 0.0,
+  "pds_efficiency_bounds": [
+    0.7,
+    0.95
+  ],
+  "pds_efficiency_max_deviation_fraction": 0.1,
+  "pds_efficiency_means": [
+    0.8,
+    0.8,
+    0.8,
+    0.8,
+    0.8,
+    0.8
+  ],
+  "pds_efficiency_nominal": 0.8,
+  "pds_efficiency_reversion_per_h": 0.0,
+  "pds_efficiency_volatility_per_sqrt_h": 0.0,
+  "poison_bounds_g_h": [
+    0.0,
+    300.0
+  ],
+  "poison_feed_means_g_h": [
+    40.0,
+    140.0,
+    70.0,
+    180.0,
+    100.0,
+    220.0
+  ],
+  "poison_reversion_per_h": 0.5,
+  "poison_volatility_g_h_per_sqrt_h": 15.0,
+  "pressure_baseline_sp_kpa": 2225.0,
+  "pressure_high_limit_kpa": 2300.0,
+  "pressure_low_limit_kpa": 2100.0,
+  "pressure_precondition_target_range_kpa": [
+    2130.0,
+    2270.0
+  ],
+  "pressure_precondition_target_was_capped": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+  ],
+  "pressure_precondition_targets_kpa": [
+    2130.5,
+    2150.8,
+    2160.5,
+    2250.1,
+    2270.0,
+    2130.0
+  ],
+  "pretransition_lab_baseline_hours": 24.0,
+  "sample_period_seconds": 120,
+  "seed": 17,
+  "startup_hours": 24.0,
+  "transition_spacing_hours": 44.0,
+  "uncapped_pressure_precondition_targets_kpa": [
+    2130.5,
+    2150.8,
+    2160.5,
+    2250.1,
+    2270.0,
+    2130.0
+  ],
+  "vent_close_margin_kpa": 30.0,
+  "vent_high_reset_margin_kpa": 10.0,
+  "vent_hydrogen_error_threshold": 0.05,
+  "vent_max_kg_h": 1000.0,
+  "vent_reopen_hysteresis_kpa": 10.0
+}

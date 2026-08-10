@@ -1,0 +1,10 @@
+{
+  "scenario_name": "prestage-asymmetric-density-6h-mfr-0.25h-p2255",
+  "pressure_precondition_targets_kpa": [2130.5, 2255.0, 2160.5, 2255.0, 2270.0, 2255.0],
+  "low_pressure_property_prestage_hours": 6.0,
+  "low_pressure_property_prestage_ramp_hours": 1.0,
+  "low_pressure_density_prestage_target_kg_m3": 918.8,
+  "low_pressure_mfr_prestage_target_g_10min": 2.75,
+  "low_pressure_density_ramp_hours": 6.0,
+  "low_pressure_mfr_ramp_hours": 0.25
+}

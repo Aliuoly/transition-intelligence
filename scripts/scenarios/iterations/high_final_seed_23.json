@@ -1,0 +1,7 @@
+{
+  "scenario_name": "final-optimized-2210-to-1630-seed-23",
+  "seed": 23,
+  "high_pressure_precondition_cap_kpa": 2180.0,
+  "high_pressure_comonomer_sp_ramp_rate_per_h": 0.02,
+  "high_pressure_ramp_only_when_pressure_capped": true
+}

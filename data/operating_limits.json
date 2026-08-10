@@ -1,0 +1,28 @@
+{
+  "pressure": {
+    "low": 2100.0,
+    "high": 2300.0,
+    "unit": "kPa"
+  },
+  "actuators": {
+    "vent": {
+      "column": "vent_flow_kg_h",
+      "label": "Vent flow",
+      "limit": 1000.0,
+      "unit": "kg/h"
+    },
+    "comonomer": {
+      "column": "comonomer_feed_kg_h",
+      "label": "FM2 feed",
+      "limit": 7000.0,
+      "unit": "kg/h"
+    },
+    "hydrogen": {
+      "column": "hydrogen_feed_kg_h",
+      "label": "Hydrogen feed",
+      "limit": 20.0,
+      "unit": "kg/h"
+    }
+  },
+  "saturation_fraction": 0.98
+}

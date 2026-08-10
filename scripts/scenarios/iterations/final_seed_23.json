@@ -1,0 +1,11 @@
+{
+  "scenario_name": "final-optimized-seed-23",
+  "seed": 23,
+  "pressure_precondition_targets_kpa": [2130.5, 2255.0, 2160.5, 2255.0, 2270.0, 2255.0],
+  "low_pressure_property_prestage_hours": 6.0,
+  "low_pressure_property_prestage_ramp_hours": 1.0,
+  "low_pressure_density_prestage_target_kg_m3": 918.85,
+  "low_pressure_mfr_prestage_target_g_10min": 2.72,
+  "low_pressure_density_ramp_hours": 1.5,
+  "low_pressure_mfr_ramp_hours": 0.5
+}
